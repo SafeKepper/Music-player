@@ -8,6 +8,7 @@ const progressContainer = document.querySelector('.progress-container')
 const title = document.querySelector('#title')
 const cover = document.querySelector('#cover')
 
+
 //list
 const songs = ['Be Alright', 'Someone To You', 'Bink\'s Sake']
 

@@ -8,13 +8,15 @@ body{
     height: 100vh;
     margin: 0;
     font-family: "Lato",sans-serif;
-    background-image: linear-gradient(to top, #b0cfff, #d6c4f6, #f3badd, #ffb6bd, #f8baa0);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
+#canvas {
+    position: fixed;
+    z-index: 2;
+}
 .music-container {
     background-color: white;
     border-radius: 15px;
@@ -140,6 +142,7 @@ body{
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,600,700");
+
 a {
   text-decoration: none;
   color: inherit;
